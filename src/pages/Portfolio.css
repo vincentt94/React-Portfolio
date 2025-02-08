@@ -1,0 +1,20 @@
+.portfolio-item {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05); /* increases size of image when hovering*/
+}
+
+/* Ensures images fit inside the card */
+.portfolio-img {
+    width: 100%;
+    height: 150px; /* Adjust image height */
+}
+
+/* Style GitHub button */
+.btn-dark {
+    margin-top: 10px;
+}

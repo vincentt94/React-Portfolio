@@ -3,46 +3,45 @@
 export default function Portfolio() {
     const portfolioItems = [
         {
-            image: "https://i.postimg.cc/Y2v8zxGw/Weather-Dashboard.png",
+            image: "https://i.postimg.cc/j2Z4J4kn/image.png",
             website: "https://weather-dashboard-gkyb.onrender.com/",
             github: "https://github.com/vincentt94/Weather-Dashboard",
-            title: "Project 1"
+            title: "5 Day Weather Dashboard"
         },
         {
-            image: "https://i.postimg.cc/Y2v8zxGw/Weather-Dashboard.png",
-            website: "https://weather-dashboard-gkyb.onrender.com/",
-            github: "https://github.com/vincentt94/Weather-Dashboard",
-            title: "Project 2"
+            image: "https://i.postimg.cc/BvnLjGfp/image.png",
+            website: "https://module14-ztqx.onrender.com/",
+            github: "https://github.com/vincentt94/MockKanbanBoard",
+            title: "KanBan Board "
         },
         {
-            image: "https://i.postimg.cc/Y2v8zxGw/Weather-Dashboard.png",
-            website: "https://weather-dashboard-gkyb.onrender.com/",
-            github: "https://github.com/vincentt94/Weather-Dashboard",
-            title: "Project 3"
+            image: "https://i.postimg.cc/tCj5vYHM/image.png",
+            website: "https://book-search-engine-with-graphql.onrender.com/",
+            github: "https://github.com/vincentt94/Book-Search-Engine-With-GraphQL",
+            title: "Book Search Engine"
         },
         {
-            image: "https://i.postimg.cc/Y2v8zxGw/Weather-Dashboard.png",
-            website: "https://weather-dashboard-gkyb.onrender.com/",
-            github: "https://github.com/vincentt94/Weather-Dashboard",
-            title: "Project 4"
+            image: "https://i.postimg.cc/pdnL3Vfm/image.png",
+            website: "https://candidatesearchbygithub.netlify.app/",
+            github: "https://github.com/vincentt94/Candidate-Search-App",
+            title: "Github Candidate Search"
         },
         {
-            image: "https://i.postimg.cc/Y2v8zxGw/Weather-Dashboard.png",
-            website: "https://weather-dashboard-gkyb.onrender.com/",
-            github: "https://github.com/vincentt94/Weather-Dashboard",
-            title: "Project 5"
+            image: "https://i.postimg.cc/vmLZGqKy/image.png",
+            website: "https://vincentt94.github.io/Money-Maker/",
+            github: "https://github.com/vincentt94/Money-Maker",
+            title: "Money Maker Game"
         },
         {
-            image: "https://i.postimg.cc/Y2v8zxGw/Weather-Dashboard.png",
-            website: "https://weather-dashboard-gkyb.onrender.com/",
-            github: "https://github.com/vincentt94/Weather-Dashboard",
-            title: "Project 6"
+            image: "https://i.postimg.cc/bNbSSTDG/image.png",
+            website: "https://slurp-society.onrender.com",
+            github: "https://github.com/ant-codes-42/slurp-society",
+            title: "Slurp Society: Mock Restaurant Reservation App"
         },
 
     ];
     return (
         <div className="container mt-5">
-            <p className= "text-center "> Please click an image to view the application </p>
             <div className="row">
                 {portfolioItems.map((item, index) => (
                     <div key={index} className="col-md-4 mb-4">
@@ -59,7 +58,7 @@ export default function Portfolio() {
                         </div>
                     </div>
                 ))}
-                <p className= "text-center">DISCLAIMER I currently only have 1 deployed application so I modeled the same image 6 times for future updates to this page.</p>
+                <p className= "text-center"> Please click above to view a deployed project.</p>
             </div>
 
         </div>

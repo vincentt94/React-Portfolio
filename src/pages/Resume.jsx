@@ -29,6 +29,10 @@ export default function Resume() {
                     <li className="list-group item text-center">Node.Js</li>
                     <li className="list-group item text-center">Typescript</li>
                     <li className="list-group item text-center"> PostgreSQL</li>
+                    <li className="list-group item text-center"> Servers/APIs</li>
+                    <li className="list-group item text-center"> React</li>
+                    <li className="list-group item text-center"> Python</li>
+                    <li className="list-group item text-center"> MERN Full Stack</li>
                 </ul>
 
             </div>

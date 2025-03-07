@@ -12,7 +12,7 @@ export default function Resume() {
                 </a>
                 */}
 
-                <a href="../../public/Resume.pdf" download className="btn btn-lg text-primary">
+                <a href="../../Resume.pdf" download className="btn btn-lg text-primary">
                     Download Resume as PDF.
                 </a>
 

@@ -11,12 +11,14 @@ export default function Home() {
                     <img src={profilePic} alt="My Profile" className="profile-pic mb-3" width="150px" />
                 </div>
                 <p className="text-center">
-                    My name is Vincent.  I'm currently in a Software Development Bootcamp through the Universiy of Minnesota.
-                    I find coding very interesting to say the least.  I have a two year old daughter and a one year old son. 
-                    When I have free time I enjoy going to the gym.  I find it very soothing and relaxing and it's not a tedious task for me.
-                    I wouldn't consider it a hobby but rather a part of my lifestyle.  I'm not too particular with my diet and because of that
-                    I do indulge in eating whatever I feel like.   I'm enjoying my time learning the process of coding.  This page 
-                    will contain many kinks that will be fixed in future updates!
+                   My name is Vincent Thao.  I am currently in a Coding Bootcamp through the University of Minnesota.  As an aspiring Software Developer,
+                   I am constantly learning and growing.  I am thoroughly enjoying this journey.  I have found these past few months very challenging,
+                   yet so rewarding at the same time.  Just a few months ago, I knew nothing about software development.  Now, I can build a single-page application (along with many other Full-Stack applciations)
+                   in just a week, which amazes me.  
+                </p>
+                <p className="text-center">
+                    In my free time I enjoy doing various activities.  My favorite pasttime would probably be going to the gym and lifting weights.  I have two wonderful children,
+                    a daughter and a son.   I am very excited for whatever endeavors the future may hold. 
                 </p>
             </div>
         </div>

@@ -9,10 +9,10 @@ export default function Portfolio() {
             title: "5 Day Weather Dashboard"
         },
         {
-            image: "https://i.postimg.cc/BvnLjGfp/image.png",
-            website: "https://module14-ztqx.onrender.com/",
-            github: "https://github.com/vincentt94/MockKanbanBoard",
-            title: "KanBan Board "
+            image: "https://i.postimg.cc/sg8PsqF2/Nomad-Notes.png",
+            website: "https://nomad-notebook.onrender.com/",
+            github: "https://github.com/vincentt94/Nomad-Notebook",
+            title: "Nomad Notes "
         },
         {
             image: "https://i.postimg.cc/tCj5vYHM/image.png",

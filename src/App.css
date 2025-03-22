@@ -1,35 +1,27 @@
-body {
+/* App.css */
+
+.app-container {
   display: flex;
-  justify-content: flex-start; /* Push content to the right */
-  align-items: flex-start; /* Align content to the top */
-  height: 100vh; /* Full viewport height */
-  margin: 0;
-  background:rgb(216, 226, 232);
-
+  flex-direction: column;
+  min-height: 100vh;
+  background: rgb(216, 226, 232);
 }
 
-header {
-  position: fixed; /* Sticks it to the top */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width */
-  background:rgb(216, 226, 232);
-  padding: 10px 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
-  z-index: 1000; /* Ensures it's above other content */
-}
-
-main {
-  margin-top: 60px; /* Prevent content from being hidden behind navbar */
+.main-content {
+  flex: 1;
   padding: 20px;
-  background:rgb(216, 226, 232);
-
 }
 
+/* Optional: override Bootstrap container for Resume/Portfolio if needed */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-#root {
-  padding: 1rem;
-  text-align: left;
-  background:rgb(216, 226, 232);
-
-} 
+/* Fix header styling (if needed) */
+header {
+  background: rgb(216, 226, 232);
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}

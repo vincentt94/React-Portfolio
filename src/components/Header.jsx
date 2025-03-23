@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import '../app.css'; // new CSS file for header-specific styles
+// import '../app.css'; // new CSS file for header-specific styles
 
 function Header() {
   const currentPage = useLocation().pathname;

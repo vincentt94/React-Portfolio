@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from "emailjs-com";
-import './Contact.css' 
+import '../app.css' 
 
 export default function Contact() {
     // State for form fields

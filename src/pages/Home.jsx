@@ -1,4 +1,4 @@
-import '../app.css';
+// import '../app.css';
 import profilePic from "../assets/portfolio_image.jpg";
 
 export default function Home() {

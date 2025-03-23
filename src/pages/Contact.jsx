@@ -1,12 +1,12 @@
 import { useState, useRef } from "react";
 import emailjs from "emailjs-com";
-import './Contact.css' 
+import '../app.css' 
 
 export default function Contact() {
     // State for form fields
     const [formData, setFormData] = useState({
         name: "",
-        email: "",
+        from_email: "",
         message: ""
     });
 
@@ -23,7 +23,7 @@ export default function Contact() {
         e.preventDefault(); // Prevent page refresh
     const templateParams = {
         from_name: formData.name,
-        from_email: formData.email,
+        from_email: formData.from_email,
         message: formData.message,
     };
 
@@ -33,7 +33,7 @@ export default function Contact() {
     };
 
     //checks to see if email is valid and filled
-    if(!isValidEmail(formData.email)) {
+    if(!isValidEmail(formData.from_email)) {
         alert("Please enter a valid email address.");
         return;
     }
@@ -59,7 +59,7 @@ export default function Contact() {
             .then(
                 (response) => {
                     alert("Message sent successfully!");
-                    setFormData({ name: "", email: "", message: "" }); // Clear form
+                    setFormData({ name: "", from_email: "", message: "" }); // Clear form
                 },
                 (error) => {
                     alert("Failed to send message. Please try again.");
@@ -86,8 +86,8 @@ export default function Contact() {
                 <label>Email:</label>
                 <input
                     type="email"
-                    name="email"
-                    value={formData.email}
+                    name="from_email"
+                    value={formData.from_email}
                     onChange={handleChange}
                     placeholder ="Email"
                 />

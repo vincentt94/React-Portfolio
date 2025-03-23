@@ -1,4 +1,4 @@
-import './Home.css';
+import '../app.css';
 import profilePic from "../assets/portfolio_image.jpg";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
                     <img src={profilePic} alt="My Profile" className="profile-pic mb-3" width="150px" />
                 </div>
                 <p className="text-center">
-                   My name is Vincent Thao.  I am currently in a Coding Bootcamp through the University of Minnesota.  As an aspiring Software Developer,
+                   My name is Vincent Thao.  I recently graduated from a Coding Bootcamp through the University of Minnesota.  As an aspiring Software Developer,
                    I am constantly learning and growing.  I am thoroughly enjoying this journey.  I have found these past few months very challenging,
                    yet so rewarding at the same time.  Just a few months ago, I knew nothing about software development.  Now, I can build a single-page application (along with many other Full-Stack applciations)
                    in just a week, which amazes me.  

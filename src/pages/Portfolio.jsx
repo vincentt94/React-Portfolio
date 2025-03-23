@@ -1,4 +1,4 @@
- import './Portfolio.css';
+ import '../app.css';
 
 export default function Portfolio() {
     const portfolioItems = [

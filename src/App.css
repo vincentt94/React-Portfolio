@@ -1,3 +1,14 @@
+header, main, footer {
+  position: relative;
+  z-index: 1;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 /* App.css */
 
 .app-container {
